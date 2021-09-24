@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Crypto-Realm
+- A react-web-app providing each and every detail about the crypto currency market.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
