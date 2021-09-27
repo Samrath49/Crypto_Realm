@@ -2,16 +2,16 @@ import React from 'react';
 import millify from 'millify';
 import { Typography, Row, Col, Statistic } from 'antd';
 import { Link } from 'react-router-dom';
-
+import Loader from './Loader';
 import { useGetCryptosQuery } from '../services/cryptoApi';
 import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
 const { Title } = Typography; // to use title as an abbreviation for typography
 
 const Homepage = () => {
-    const { data, isFetching } = useGetCryptosQuery(10);
+    const { data } = useGetCryptosQuery(10);
     const globalStats = data?.data?.stats;
-    if (!globalStats) return 'Loading...';
+    if (!globalStats) return <Loader />;
 
     return (
         <>
