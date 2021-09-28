@@ -1,5 +1,5 @@
 # Crypto-Realm 
-## Deployed URL -> https://crypto-realm.netlify.app/exchanges
+## Deployed URL -> https://crypto-realm.netlify.app/
 - A react-web-app providing each and every detail about the crypto currency market.
 
 This project was created using with [Create React App](https://github.com/facebook/create-react-app).
