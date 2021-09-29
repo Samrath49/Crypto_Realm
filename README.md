@@ -1,4 +1,5 @@
 # Crypto-Realm 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Samrath49/Crypto_Realm/) 
 ## Deployed URL -> https://crypto-realm.netlify.app/
 - A react-web-app providing each and every detail about the crypto currency market.
 
